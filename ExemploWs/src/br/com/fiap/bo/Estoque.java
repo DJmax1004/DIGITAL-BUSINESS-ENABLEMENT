@@ -16,6 +16,10 @@ public class Estoque {
 	else if (codigo == 403) {
 		return new ProdutoTO(codigo,"Camiseta Rosa", 4, 2.99);
 	}
+	else if (codigo == 800) {
+		return new ProdutoTO(codigo,"Camisinha sabor giló", 4, 9.99);
+	}
+	
 	else {
 		throw new AxisFault("Produto não encontrado!!!");
 		}
